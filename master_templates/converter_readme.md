@@ -66,6 +66,8 @@ Total mass of the system, i.e. the sum of grav_mass1 and grav_mass2. This field 
 #### l = 2
 #### m = 2
 
+Note that l and m values must be specified as 2,2 only if the original file to be converted is a .txt or .dat file. If the original is a .h5 file, the program will detect the highest l and m modes and save the information accordingly.
+
 ## Metadata Essential Fields
 These fields must be included in the metadata.txt file, but do not directly play a role in the proper formatting of the file. If necessary, values of 0 can be falsely inserted into these fields in the absense of real data
 ```
