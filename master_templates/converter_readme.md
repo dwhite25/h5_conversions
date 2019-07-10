@@ -1,11 +1,11 @@
-# GW_h5_converter
+# h5_converter
 Converts existing gravitational wave simulation data into the HDF5 format to be used with PyCBC.
 
-To use, place converter.py and a properly formatted version of metadata.txt in the same folder as any gravitational wave data files you wish to convert, then run converter.py. It will convert all files within the folder that have either .txt or .dat as its expension, but all files must use the same metadata.
+As these are currently .ipynb files, they must be run in a Jupyter Notebook (or else converted to a .py file first). Once ready to run, change the code to reference the correct directory of your simulations, then run the script. Additional changes may be necessary depending on the context/the format files have been saved in. It seems that each research group creates their files using different formatting standards; this will need to be accounted for before running the script.
 
 Gravitational wave data files must have a minimum of three columns of data: column 1 must be timestamps, and columns two and three must be either the plus and cross values for the magnitude of strain, or else column two must be magnitude and column three must be argument (angle).
 
-The process implemented for converting gravitational wave simulations into HDF5 files is heavily dependent upon the proper formatting of a "metadata.txt" file, which stores important information about the gravitational wave to be converted. Metadata.txt is imported and turned into code when coverter.py is run, so its careful formatting is crucial. A sample metadata.txt file is attached within this repository; further details regarding formatting will be discussed in this README file. Using the two in conjunction for reference should lead to a properly formatted file. 
+The process implemented for converting gravitational wave simulations into HDF5 files is heavily dependent upon the proper formatting of a "metadata.txt" file, which stores important information about the gravitational wave to be converted. Metadata.txt is imported and turned into code when the h5_conversion script is run, so its careful formatting is crucial. A sample metadata.txt file is attached within this repository; further details regarding formatting will be discussed in this README file. Using the two in conjunction for reference should lead to a properly formatted file. 
 
 ## Style Guide
 
