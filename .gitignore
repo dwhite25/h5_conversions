@@ -1,3 +1,4 @@
 # don't track the simulations themselves. those will be housed on GitLab instead
 converted_files/
 original_files/
+.ipynb_checkpoints/
