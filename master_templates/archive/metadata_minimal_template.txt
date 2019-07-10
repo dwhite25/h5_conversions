@@ -1,0 +1,29 @@
+# [metadata.txt]
+# this version of metadata.txt is a test for running our automated h5_converter script
+
+# simulation-type = BNS
+# mass-scale = 1
+
+dataFormat = "MagArg"
+
+# Use convention that body 1 is BH in NSBH 
+# Use convention that body 1 is larger NS in NSNS 
+massFormat = "Msun"
+mass1 = 1.4
+mass2 = 1.4
+totalMass = 2.8
+
+# calculate mass-ratio from mass specification as needed 
+# to avoid issues of convention conflict 
+spin1x = 0.0 
+spin1y = 0.0 
+spin1z = 0.0 
+spin2x = 0.0 
+spin2y = 0.0 
+spin2z = 0.0
+
+timeFormat = "Msun"
+strainFormat = "rhOverM"
+
+l = 2
+m = 2
